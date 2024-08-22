@@ -10,7 +10,7 @@ int main()
     gasDetector.mode(PullDown);
 
     alarmLed = OFF;
-    # Hola
+    
     while (true) {
         if ( gasDetector == ON ) {
             alarmLed = ON;
